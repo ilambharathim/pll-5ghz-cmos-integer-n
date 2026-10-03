@@ -1,0 +1,101 @@
+# =============================================================
+# Cadence Tool Generated / Output Files
+# =============================================================
+
+# Cadence lock files
+.cdslck
+*.cdslck
+
+# Cadence database (not portable without PDK)
+cds.lib
+cds.lib.bak
+cdsinit
+.cdsenv
+*.cds.lib.bak
+
+# Simulation output (Spectre)
+psf/
+*.raw
+*.pac
+*.noise
+*.dc
+*.tran
+*.ac0
+*.tr0
+*.sw0
+*.mt0
+simulate/
+spectre.out
+*.ahdlSimDB/
+
+# ADE state files
+maestro/
+*.sdb
+
+# Cadence log files
+*.log
+CDS.log*
+
+# =============================================================
+# EDA Tool Output
+# =============================================================
+
+# HSPICE
+*.lis
+*.st0
+*.ic0
+
+# Calibre / PVS DRC/LVS output
+svdb/
+calibre.log
+*.erc.results
+*.rul.results
+
+# =============================================================
+# OS / IDE
+# =============================================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+._*
+
+# Linux
+*~
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# =============================================================
+# Python
+# =============================================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+env/
+
+# =============================================================
+# Temporary
+# =============================================================
+
+*.tmp
+*.bak
+*.swp
+
+# =============================================================
+# Secrets
+# =============================================================
+
+.env
+*.key
+*.pem
+secrets.json
